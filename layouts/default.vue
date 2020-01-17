@@ -1,29 +1,38 @@
 <template>
  <div class="main">
-    <nav class="spacing">
-      <nuxt-link class="routes" to="/home">Home</nuxt-link>
-      <nuxt-link class="routes" to="/project">Project</nuxt-link>
-      <nuxt-link class="routes" to="/skills">Skills</nuxt-link>
-      <nuxt-link class="routes" to="/about">About</nuxt-link>
-      <nuxt-link class="routes" to="/contact">Contact</nuxt-link>
-      <a href="">CV </a>
-      <a href="">GitHub</a>
-      <a href="LinkedIn">LinkedIn</a>
-      <!-- ajouter les liens vers mon git hub et vers mon linkedIn -->
-    </nav>
+    <Navbar></Navbar>
     <main>
+      <nuxt />
     </main>
     <footer>
     </footer>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<script>
+import Navbar from '../components/navbar'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
+
+<style lang="scss">
+
 
 nav {
   background-color: rgb(27, 27, 50);
   padding: 20px;
   color: white;
+}
+main {
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid rgb(27, 27, 50);
 }
  footer {
   background-color: rgb(162, 171, 221);

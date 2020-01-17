@@ -1,0 +1,55 @@
+@mixin button-next($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border, $display){
+  background-color: $bg-color;
+  color: $color;
+  height : $height; 
+  width: $width; 
+  margin: $margin; 
+  padding: $padding; 
+  border-radius: $b-radius; 
+  cursor: $cursor;
+  border: $border;
+  grid-column-start: $display;
+}
+.btn-n {
+  @include button-next(rgb(86, 96, 240), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(86, 96, 240), 3);
+}
+.btn-n:hover {
+  @include button-next(rgb(154, 161, 255), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(154, 161, 255), 3);
+
+@mixin button-prev($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border){
+  background-color: $bg-color;
+  color: $color;
+  height : $height; 
+  width: $width; 
+  margin: $margin; 
+  padding: $padding; 
+  border-radius: $b-radius; 
+  cursor: $cursor;
+  border: $border;
+}
+.btn-p {
+  @include button-prev(rgb(140, 73, 146), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(140, 73, 146));
+}
+.btn-p:hover {
+  @include button-prev(rgb(69, 40, 71), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(69, 40, 71));
+}
+
+@mixin button-submit($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border){
+  background-color: $bg-color;
+  color: $color;
+  height : $height; 
+  width: $width; 
+  margin: $margin; 
+  padding: $padding; 
+  border-radius: $b-radius; 
+  cursor: $cursor;
+  border: $border;
+}
+.btn-s {
+  @include button-submit(rgb(16, 204, 100), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(16, 204, 100));
+}
+
+  .btn-s:hover {
+    @include button-submit(rgb(0, 255, 115), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(0, 255, 115));
+  }
+}
