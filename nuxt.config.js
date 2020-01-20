@@ -19,6 +19,14 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+  // router: {
+  //   middleware: 'i18n'
+  // },
+  // plugins: ['-plugins/i18n.js'],
+  // generate: {
+  // routes: ['/', '/about', '/fr', '/fr/about']
+  // },
+
   /*
   ** Global CSS
   */

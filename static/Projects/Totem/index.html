@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet">
+    <title>Totem </title>
+</head>
+<body>
+  <div id="page-wrapper">
+      <header id="header">
+          <div class="logo">
+            <img
+              id="header-img"
+              src="Images/icon-above-font.svg" 
+              alt="logo"> 
+      </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#concept">Coworking space</a></li>
+            <li><a class="nav-link"href="#blog">Futur of job</a></li>
+            <li><a class="nav-link"href="#pricing">Pricing</a></li>  
+            <li><a class="nav-link"href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+<!-- ----------------------------   -->
+  
+<!-- ----------------------------   -->
+<div class="container">
+ <section id="concept">
+   <div class="space"id="workplace">
+     <div class="item">Designed just for you</div>
+     <h3>Large and flexible to your needs </h3> 
+      <figure>
+          <img src="Images/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg" alt="coworkingplace">
+      <figcaption> At St Pierre  
+      </figcaption>
+      </figure>
+   </div>
+   <div class="space"id="opportunities">
+      <div class="item"> start new business</div> 
+     <h3> Opportunities and news collaborations</h3><br>
+       <figure>
+         <img src="Images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="peopleatwork">
+        <figcaption> Meet friendly and inteligent people  </figcaption>
+        </figcaption>
+       </figure>
+   </div>
+  
+   <div class="space" id="bonus">
+      <div class="item"> Services </div> 
+     <h3> wifi, healthy foods and plenty of awesome events will be offered</h3><br>
+       <figure>
+           <img src="Images/bernard-hermant-X0EtNWqMnq8-unsplash.jpg" alt="wifi">
+         <figcaption> extra-bonus
+         </figcaption>
+       </figure>
+   </div>
+  </div> 
+<!-- ----------------------------   -->
+<div class="container"> 
+ <section id="blog">
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/M908RNjj0n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+</div> 
+<!-- ---------------------------- -->
+<div class="container">
+ <section id="pricing">  
+  <div class="product" id="day">
+   <div class="level">Just for a day</div>
+     <h3>12€ / day</h3>
+     <p> give access to : 
+       <ol>
+         <li>a workplace</li>
+         <li>wifi & furnitures</li>
+         <li>one boost training 1h</li>
+       </ol>
+     </p>
+    <button class="btn">Select</button>
+  </div>
+  <div class="product" id="nomad">
+    <div class="level">nomad </div>
+     <h3>39€ / month </h3>
+     <p> give access to : 
+       <ol>
+         <li>a workplace</li>
+         <li>wifi & furnitures</li>
+         <li>one boost training 1h</li>
+       </ol>
+     </p>
+     <button class="btn">Select</button>
+  </div>
+  <div class="product" id="resident">
+    <div class="level">resident</div>
+     <h3>399€ / year </h3>
+     <p> give access to : 
+       <ol>
+         <li>a workplace</li>
+         <li>wifi & furnitures</li>
+         <li>one boost training 1h</li>
+       </ol>
+     </p>
+     <button class="btn">Select</button>
+   </div>
+
+  </section>
+</div>   
+<!-- ---------------------------- -->
+
+<div class="container">
+ <section id="contact"> 
+  <h3>Contact us</h3>
+   <p>To give you the best answer, give us some informations about you</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
+     <div class="rowTab">
+      <div class="labels">
+       <label id="name-label" for="name">* Name: </label>
+        </div>
+        <div class="rightTab">
+          <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="labels">
+          <label id="email-label" for="email">* Email: </label>
+        </div>
+        <div class="rightTab">
+          <input type="email" name="email" id="email" class="input-field" target_blank="https://www.freecodecamp.com/email-submit)"required placeholder="Enter your Email">
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="labels">
+          <label id="number-label" for="age">* Age: </label>
+        </div>
+        <div class="rightTab">
+          <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="labels">
+          <label for="currentPos">Which option best describes your current role?</label>
+        </div>
+        <div class="rightTab">
+          <select id="dropdown" name="currentPos" class="dropdown">
+        <option disabled value>Select an option</option>
+        <option  value="student">Student</option>
+        <option value="job">employee</option>
+        <option value="entrepreneur">independant (0employee)</option>
+        <option value="preferNo">CEO with at least 1 employee</option>
+        <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+</div> 
+<!-- ---------------------------- -->      
+      <footer>
+        <h3>&copy 2019 - Keayka Hang Si Lan & Thibault Decousus </h3>
+        </footer>
+    
+
+<!-- ---------------------------- -->
+
+</div>
+</body>
+</html>
