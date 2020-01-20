@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar/navbar'
 
 export default {
   components: {
@@ -21,7 +21,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+.main {
+  font-family: 'Roboto', sans-serif;
+}
 nav {
   background-color: rgb(27, 27, 50);
   padding: 20px;

@@ -1,17 +1,17 @@
 <template>
    <form method="POST">
-      <select class="firstLine" v-model="contactInfos.gender">
+      <select class="firstLine" v-model="gender">
         <option disabled value="">Please Select Your Gender</option>
         <option value="Mrs">Mrs</option>
         <option value="Mr">Mr</option>
         <option value="Other">Other</option>
       </select>
-      <input type="text" class="firstLine" v-model="contactInfos.firstName" placeholder="Your firstName">
-      <input type="text" class="firstLine" v-model="contactInfos.lastName" placeholder="Your lastName">
-      <input type="text" class="firstLine" v-model="contactInfos.email" placeholder="Your email">
-      <input type="tel" class="secondLine" name="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required v-model="contactInfos.phone" placeholder="Your phone">
-      <input type="text" class="secondLine" v-model="contactInfos.company" placeholder="Your company">
-      <input type="text" class="secondLine" v-model="contactInfos.job" placeholder="Your job">
+      <input type="text" class="firstLine" v-model="firstName" placeholder="Your firstName">
+      <input type="text" class="firstLine" v-model="lastName" placeholder="Your lastName">
+      <input type="text" class="firstLine" v-model="email" placeholder="Your email">
+      <input type="tel" class="secondLine" name="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required v-model="phone" placeholder="Your phone">
+      <input type="text" class="secondLine" v-model="company" placeholder="Your company">
+      <input type="text" class="secondLine" v-model="job" placeholder="Your job">
       <button class="btn-s" type="submit" @click.prevent="thank">Submit</button>
      <nuxt />
     </form>
@@ -22,7 +22,6 @@ export default {
   name: 'FormContact', 
   data(){
     return {
-      contactInfos: {
         gender: "",
         firstName: "",
         lastName:"",
@@ -30,13 +29,12 @@ export default {
         phone:"",
         company:"",
         job:"",
-      }
     }
   }, 
   methods: {
     thank(){
       this.$emit('onThank',this.gender, this.lastName, this.firstName);
-    }
+    },
   }
 } 
 </script>
