@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="code">
-      <h2>Code/programmation</h2>
+      <h2>Coding</h2>
       <hr>
       <p><strong>I code with ..</strong></p>
       <ul>
@@ -20,13 +20,13 @@
     <div class="projectManagement">
       <h2>Project Management</h2>
       <hr>
-       <p><strong>I work with some Framework..</strong></p>
+       <p><strong>I work with..</strong></p>
       <ul>
         <li>Agile - SCRUM</li>
         <li>Design Thinking</li>
         <li>Lean Startup</li>
       </ul>
-       <p><strong>I used somme tools..</strong></p>
+       <p><strong>I use..</strong></p>
        <ul>
         <li>Trello</li>
         <li>Jira</li>
@@ -36,17 +36,17 @@
     <div class="uxDesign">
       <h2>Ux Design</h2>
       <hr>
-      <p><strong> I designed..</strong></p>
+      <p><strong> I design..</strong></p>
       <ul>
         <li>Customer journey</li>
         <li>personae</li>
         <li>Apps (mockup, wireframe)</li>
       </ul>
-      <p><strong> I used to..</strong></p>
+      <p><strong> I use..</strong></p>
       <ul>
-        <li>xD</li>
+        <li>Xd</li>
         <li>Illustrator</li>
-        <li>launchaco</li>
+        <li>Launchaco</li>
       </ul>
     </div>
     <nuxt />
