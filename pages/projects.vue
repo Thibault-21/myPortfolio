@@ -40,7 +40,7 @@
         <!--  ----------> 
         <div class="brick">
           <div class="brick_inner">
-           <a href="components/Survey/src/App.vue"><video width="320" height="240" controls :src="video">
+           <a href="components/Survey/src/App.vue"><video width="320" height="180" controls :src="video">
              <!-- <source src="" type="video/Mp4"> -->
              </video></a>
             <div class="brick_details"> </div>
