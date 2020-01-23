@@ -40,9 +40,9 @@ export default {
   display: grid; 
   grid-template-columns: 100%;
 }
-p {
+// p {
 
-}
+// }
 .btn {
   border-radius: 5px;
   border: 1px solid rgb(134, 134, 148);
