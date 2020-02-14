@@ -36,7 +36,7 @@ nav {
 }
 main {
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   margin: 5px;
   border: 1px solid rgb(27, 27, 50);

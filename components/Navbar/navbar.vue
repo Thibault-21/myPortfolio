@@ -9,8 +9,6 @@
       <a href="https://github.com/Thibault-21">GitHub</a>
       <a href="https://www.linkedin.com/in/thibault-decousus/?locale=en_US">LinkedIn</a>
       <nuxt-link class="routes" to="/contact">Contact</nuxt-link>
-      <input type="search" placeholder="Research..."/>
-      <img class="icon" :src="icon"/>
       <!-- ajouter les liens vers mon git hub et vers mon linkedIn -->
     </nav>
   </div>

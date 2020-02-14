@@ -1,55 +1,55 @@
 <template>
-  <div class="brick-container">
-    <div class="static_brick">
-      <h2 class="static_title">Statics projects</h2>
-        <img class="statics" src="../static/Images/html-css.jpg">
-        <!--  ----------> 
-      <div class="brick-1">
-        <div class="brick_inner">
-          <a href="../static/Projects/Totem/index.html" class="inner_image"><img class="totem" src="../static/Projects/Totem_img.png"></a> 
-          
-          <!-- 
-          <div class="brick_details"> je mets la page vers laquelle je veux rediriger nuxt-link ? Créer un composant ?
-            <div id="totem_project_img" class="brick-image" style="background-image" url("https://www.dropbox.com/h?preview=Totem_img.png")> 
-            -->
-          
-          </div>          
-        </div>  
-      
-        <div class="brick-2">
-        <div class="brick_inner">
-          <a href="../static/Projects/Totem/index.html" class="inner_image"><img class="totem" src="../static/Projects/Totem_img.png"></a> 
-          <div class="brick_details"> </div>
-
-          <div class="brick_figcaption"> </div>
+  <div class="main">
+      <div class="gallery">
+        <div class="title">
+          <h3>My statics projects and vue-projetcs </h3>
         </div>
-      </div>
-      <div class="brick-3">
-        <div class="brick_inner">
-          <a href="../static/Projects/Totem/index.html" class="inner_image"><img class="totem" src="../static/Projects/Totem_img.png"></a> 
-          <div class="brick_details"> </div>
-
-          <div class="brick_figcaption"> </div>
-        </div>
-      </div>
-    </div>
- <!--  ----------> 
-     <div class="vue_brick">
-       <h2 class="dynamic_title">Vue.js projects</h2>
-        <img class="dynamic" src="../static/Images/vue.jpg"><img class="dynamic" src="../static/Images/Sass.png">
-        <!--  ----------> 
-        <div class="brick">
-          <div class="brick_inner">
-           <a href="components/Survey/src/App.vue"><video width="320" height="180" controls :src="video">
-             <!-- <source src="" type="video/Mp4"> -->
-             </video></a>
-            <div class="brick_details"> </div>
-            <div class="brick_figcaption"> </div>
+        <div class="brick brick-1">
+          <div class="image">
+            <img src="@/static/Images/growthyApp.png">
+          </div>
+          <div class="details">
+            <h4>Growthy</h4>
+            <p>An app that I imagined to train and use <strong>Vue.js, VueRouter, VueResource, Firebase</strong> and <strong>Vuex</strong></p>
           </div>
         </div>
-    </div>
-    <nuxt />      
+        <!--  -->
+        <div class="brick brick-2">
+          <div class="image">
+            <img src="@/static/Images/SurveyForm.png">
+          </div>
+          <div class="details">
+            <h4>SurveyForm</h4>
+            <p>A small project to learn <strong>Vue.js</strong> with 5 pages</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="brick brick-3">
+         <div class="image"></div>
+          <div class="details">
+            <p><strong>Landing Page Projects</strong></p>
+          </div>
+        </div>      
+        <!--  -->
+        <div class="brick brick-4">
+          <div class="image">
+            <a href="../static/Projects/Totem/index.html" class="inner_image"><img class="totem" src="../static/Projects/Totem_img.png"></a>
+          </div>
+          <div class="details">
+            <h4>Totem </h4>
+            <p>I imagined this project 6 months ago. Coworking space in La Reunion. <br>
+              <strong>HTML/CSS</strong></p>
+          </div>
+        </div>
+        <!--  -->
+        <!-- <div class="brick brick-5">
+          <div class="image"></div>
+          <div class="details"></div>
+        </div> -->
+      </div>
+    <nuxt />
   </div>
+
 </template>
 
 <script>
@@ -61,7 +61,7 @@ export default {
   }, 
   data(){
     return {
-      video: "static/Projects/SurveyForm.mp4"
+      // video: "assets/Projects/SurveyForm.mp4"
     }
   }
 
@@ -69,75 +69,94 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.brick-container {
+.main {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 15% 25% 25% 25% 15%;
-  height: 800px;
-  
+  height: 100%;
 }
-.static_brick {
+.gallery {
+  display: grid; 
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5% 30% 30% 30%;
+  grid-gap: 20px;
+  margin: 20px;
+  height: 100%;
+}
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  // padding: 10px;
+  margin-bottom: 10px;
+}
+.brick {
+  display: grid; 
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+
+  background-color: rgba(211, 211, 211, 0.438); 
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  height: 100%;
+}
+.image {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 5;
-  margin: 5px;
+  grid-row-end: 2;
+  height: 100%;
+  // margin: 5px;
+  // padding: 5px;
+}
+.details {
   padding: 5px;
-  background-color: rgb(59, 59, 79);
-  border-radius: 5px;
+}
+img {
   height: 100%;
-  justify-self: center;
-}
-.statics {
-  height: 10%;
-  width: 20%;
+  width: 100%;
+  // border: 3px solid rgba(27, 27, 50, 0.438);
   border-radius: 5px;
-  margin: 10px;
+  // margin: 5px;
 }
-.static_title {
-  color: white;
-  margin: 5px;
+.brick-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
- a {
-  text-decoration: none;
-  color: rgb(27, 27, 50);
-  list-style-type: none;
-  color: white;
-  margin: 5px;
-}
-.totem {
-  border: 10px solid white;
-  border-radius: 5px;
-  margin: 5px;
-  height: 100%;
-  width: 55%;
-}
-
-.vue_brick {
-  background-color: rgb(238, 238, 240);
+.brick-2 {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.brick-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.brick-4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.brick-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
   grid-row-end: 5;
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid rgb(27, 27, 50);
-  border-radius: 5px;
-  height: 100%;
-}
-.dynamic {
-  height: 10%;
-  width: 10%;
-  margin: 5px;
-}
-.dynamic_title {
-  margin: 5px;
-  color:rgb(27, 27, 50);
 }
 video {
   border-radius: 5px;
   border: 10px solid white;
 
 }
-
+p {
+  padding: 5px;
+}
 </style>
