@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 .main {
   font-family: 'Roboto', sans-serif;
 }
