@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .main {
   display: grid; 
   grid-template-columns: 33% 33% 33%;
@@ -76,12 +76,11 @@ color: white;
 grid-row-start: 1;
 grid-row-end: 3;
 padding: 10px;
-
-  li {
+}
+li {
   list-style-type: none;
   padding: 5px;
   }
-}
 .projectManagement {
   background-color: rgb(134, 134, 148);
   color: rgb(27, 27, 50);
@@ -90,12 +89,12 @@ padding: 10px;
   grid-row-start: 1;
   grid-row-end: 3;
   padding: 10px;
+}
 
-  li {
+li {
   list-style-type: none;
   padding: 5px;
   }
-}
 .uxDesign {
   background-color: rgb(238, 238, 240);
   color: rgb(27, 27, 50);
@@ -103,11 +102,11 @@ padding: 10px;
   grid-row-start: 1;
   grid-row-end: 3;
   padding: 10px;
-
+}
   li {
   list-style-type: none;
   padding: 5px;
   }
   
-}
+
 </style>
