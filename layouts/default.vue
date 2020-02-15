@@ -5,7 +5,7 @@
       <nuxt />
     </main>
     <footer>
-      <p> &copy 2019 - Thibault Decousus</p>
+      <p>copy 2019 - Thibault Decousus</p>
     </footer>
   </div>
 </template>
@@ -28,11 +28,6 @@ nav {
   background-color: rgb(27, 27, 50);
   padding: 20px;
   color: white;
-
-  .icon {
-    color: white;
-    margin: 5px;
-  }
 }
 main {
   height: 100%;

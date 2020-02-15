@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .avatar {
   height: 10%;
   width: 10%;

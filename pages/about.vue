@@ -33,16 +33,14 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .main {
   font-family:Arial, Helvetica, sans-serif;
   color:rgb(27, 27, 50);
   display: grid; 
   grid-template-columns: 100%;
 }
-// p {
 
-// }
 .btn {
   border-radius: 5px;
   border: 1px solid rgb(134, 134, 148);

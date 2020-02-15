@@ -68,7 +68,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .main {
   display: grid;
   height: 100%;
@@ -87,7 +87,6 @@ export default {
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
-  // padding: 10px;
   margin-bottom: 10px;
 }
 .brick {
@@ -108,8 +107,7 @@ export default {
   grid-row-start: 1;
   grid-row-end: 2;
   height: 100%;
-  // margin: 5px;
-  // padding: 5px;
+
 }
 .details {
   padding: 5px;
@@ -117,9 +115,8 @@ export default {
 img {
   height: 100%;
   width: 100%;
-  // border: 3px solid rgba(27, 27, 50, 0.438);
   border-radius: 5px;
-  // margin: 5px;
+
 }
 .brick-1 {
   grid-column-start: 1;

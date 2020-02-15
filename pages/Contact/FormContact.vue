@@ -98,7 +98,7 @@ export default {
 } 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .main {
   grid-column-start: 2;
   grid-column-end: 3;
