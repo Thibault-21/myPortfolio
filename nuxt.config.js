@@ -1,6 +1,12 @@
 
 export default {
   mode: 'universal',
+  
+  // generate: {
+  //   routes: [
+
+  //   ]
+  // },
   /*
   ** Headers of the page
   */
