@@ -2,11 +2,17 @@
 export default {
   mode: 'universal',
   
-  // generate: {
-  //   routes: [
-
-  //   ]
-  // },
+  generate: {
+    routes: [
+      "/about",
+      "/contact",
+      "/home",
+      "/projects",
+      "/skills",
+      "/Contact/FormContact",
+       "/",
+      ]
+  },
   /*
   ** Headers of the page
   */
