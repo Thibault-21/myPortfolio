@@ -52,7 +52,7 @@
       <textarea v-model="user.request" placeholder="Your request here.."></textarea>
       <button class="btn-s" type="submit" @click="submit">Submit</button>
      </label>
-    <p v-else-if="step === 8"> {{thank}} {{user.gender}} {{user.lastName}}</p>
+    <p v-else-if="step === 8"> {{thank}} + {{user.gender}} {{user.lastName}}</p>
     </div>
   <nuxt />
  </form>
@@ -85,7 +85,7 @@ export default {
       return this.step--;
     }, 
     submit(){
-      this.$http.post('https://myportfolio-9a37b.firebaseio.com/contact.json', this.user)
+      this.$http.post('https://myportfolio-9a37b.firebaseio.com/json', this.user)
         .then(response => {
           /*eslint-disable */
           console.log(response);

@@ -10,7 +10,15 @@
           </div>
           <div class="details">
             <h4>Growthy</h4>
-            <p>An app that I imagined to train and use <strong>Vue.js, VueRouter, VueResource, Firebase</strong> and <strong>Vuex</strong></p>
+              <!-- descritpion -->
+            <p><strong>Descritpion: </strong>
+              An app that I imagined to train myself </p>
+              <!-- concept  -->
+            <p><strong>Concept:</strong> BtoB Marketplace of fruits and vegetables</p>
+              <!-- implementation -->
+             <p>Implementation: 
+              <strong>Vue.js, VueRouter, VueResource, Firebase</strong> and <strong>Vuex</strong>
+             </p>
           </div>
         </div>
         <!--  -->
@@ -20,7 +28,13 @@
           </div>
           <div class="details">
             <h4>SurveyForm</h4>
-            <p>A small project to learn <strong>Vue.js</strong> with 5 pages</p>
+            <!-- descritpion -->
+            <p><strong>Descritpion: </strong> 
+            A small project that I imagined to learn <strong>Vue.js</strong></p>
+            <!-- concept  -->
+            <p><strong>Concept:</strong> A Survey about the digital workplace - 5 pages</p>
+            <!-- implementation -->
+            <p>Implementation: <strong> Vue.js</strong> </p>
           </div>
         </div>
         <!--  -->
@@ -37,8 +51,15 @@
           </div>
           <div class="details">
             <h4>Totem </h4>
-            <p>I imagined this project 6 months ago. Coworking space in La Reunion. <br>
-              <strong>HTML/CSS</strong></p>
+            <!-- descritpion -->
+            <p><strong>Descritpion: </strong> I imagined this project 6 months ago. 
+            </p>
+            <!-- concept  -->
+             <p><strong>Concept:</strong>
+             Coworking space in La Reunion (French Island).</p>
+            <!-- implementation -->
+            <p>Implementation: 
+            <strong>HTML/CSS</strong></p>     
           </div>
         </div>
         <!--  -->
@@ -76,7 +97,7 @@ export default {
 .gallery {
   display: grid; 
   grid-template-columns: 50% 50%;
-  grid-template-rows: 5% 30% 30% 30%;
+  grid-template-rows: 5% 40% 40%;
   grid-gap: 20px;
   margin: 20px;
   height: 100%;

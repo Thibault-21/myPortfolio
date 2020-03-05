@@ -1,7 +1,22 @@
 <template>
   <div class="container">
+    <h1>{{ $t('greeting') }}</h1>
     <h1>Welcome to my portfolio</h1>
-    <p @onThank="add"></p>
+
+    <nuxt-link
+      v-if="$i18n.locale !== 'en'"
+      :to="switchLocalePath('en')"
+    >
+      English
+    </nuxt-link>
+
+    <nuxt-link
+      v-if="$i18n.locale !== 'fr'"
+      :to="switchLocalePath('fr')"
+    >
+      Español
+    </nuxt-link>
+    
   </div>
 </template>
 
@@ -20,11 +35,6 @@ export default {
     Skills,
     About, 
     Contact
-  }, 
-  methods: {
-    add(Fname, Lanme, sex){
-      
-    }
   }
 }
 </script>
