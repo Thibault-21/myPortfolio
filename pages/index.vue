@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1>{{ $t('greeting') }}</h1>
+    <!-- <h1>{{ $t('Welcome') }}</h1> -->
     <h1>Welcome to my portfolio</h1>
-
+<!-- 
     <nuxt-link
       v-if="$i18n.locale !== 'en'"
       :to="switchLocalePath('en')"
@@ -15,7 +15,7 @@
       :to="switchLocalePath('fr')"
     >
       Español
-    </nuxt-link>
+    </nuxt-link> -->
     
   </div>
 </template>
