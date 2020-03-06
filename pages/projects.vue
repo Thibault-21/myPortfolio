@@ -11,8 +11,7 @@
           <div class="details">
             <h4>Growthy</h4>
               <!-- descritpion -->
-            <p><strong>Descritpion: </strong>
-              An app that I imagined to train myself </p>
+            <p> An app that I imagined to train myself </p>
               <!-- concept  -->
             <p><strong>Concept:</strong> BtoB Marketplace of fruits and vegetables</p>
               <!-- implementation -->
@@ -29,8 +28,7 @@
           <div class="details">
             <h4>SurveyForm</h4>
             <!-- descritpion -->
-            <p><strong>Descritpion: </strong> 
-            A small project that I imagined to learn <strong>Vue.js</strong></p>
+            <p>A small project that I imagined to learn <strong>Vue.js</strong></p>
             <!-- concept  -->
             <p><strong>Concept:</strong> A Survey about the digital workplace - 5 pages</p>
             <!-- implementation -->
@@ -52,7 +50,7 @@
           <div class="details">
             <h4>Totem </h4>
             <!-- descritpion -->
-            <p><strong>Descritpion: </strong> I imagined this project 6 months ago. 
+            <p>I imagined this project 6 months ago. 
             </p>
             <!-- concept  -->
              <p><strong>Concept:</strong>
@@ -94,6 +92,7 @@ export default {
   display: grid;
   height: 100%;
 }
+
 .gallery {
   display: grid; 
   grid-template-columns: 50% 50%;
@@ -163,12 +162,7 @@ img {
   grid-row-start: 3;
   grid-row-end: 4;
 }
-.brick-5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
+
 video {
   border-radius: 5px;
   border: 10px solid white;
@@ -176,5 +170,50 @@ video {
 }
 p {
   padding: 5px;
+}
+/* mobile phone */
+@media only screen and (max-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 25% 25% 5% 25%;
+    grid-gap: 15px; 
+  }
+  .brick {
+    display: grid; 
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+
+    background-color: rgba(211, 211, 211, 0.438); 
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    height: 100%;
+  }
+  .brick-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .brick-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .brick-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .brick-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
 }
 </style>
