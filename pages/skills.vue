@@ -30,7 +30,7 @@
        <ul>
         <li>Trello</li>
         <li>Jira</li>
-        <li>GitHub</li>
+        <li>Teams / sharepoint</li>
       </ul>
     </div>
     <div class="uxDesign">
