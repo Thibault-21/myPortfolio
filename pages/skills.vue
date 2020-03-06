@@ -8,13 +8,13 @@
         <li>HTML 5</li>
         <li>CSS 3</li>
         <li>JS - ES6</li>
-        <li>Vue.js (VueRouter, Nuxt.js)</li>
+        <li>Vue.js (VueRouter) Vuex, Nuxt.js</li>
       </ul>
       <p><strong>And I use ..</strong></p>
       <ul>
-        <li>VsCode</li>
+        <li>VsCode - ES Lint</li>
         <li>GitHub</li>
-        <li>Ubuntu</li>
+        <li>WSL - Ubuntu</li>
       </ul>
     </div>
     <div class="projectManagement">
