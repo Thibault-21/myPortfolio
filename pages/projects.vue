@@ -136,7 +136,6 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px;
-
 }
 .brick-1 {
   grid-column-start: 1;
@@ -176,19 +175,20 @@ p {
   .gallery {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 25% 25% 5% 25%;
-    grid-gap: 15px; 
+    grid-template-rows: 1% 30% 30% 0% 30%;
+    margin: 10px;
+    grid-gap: 30px; 
   }
   .brick {
     display: grid; 
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
     grid-gap: 10px;
 
     background-color: rgba(211, 211, 211, 0.438); 
     border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     height: 100%;
   }
   .brick-1 {
@@ -214,6 +214,11 @@ p {
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
   }
 }
 </style>
