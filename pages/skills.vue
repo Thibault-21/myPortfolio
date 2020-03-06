@@ -107,6 +107,32 @@ li {
   list-style-type: none;
   padding: 5px;
   }
+@media only screen and (max-width: 768px) {
+  .main {
+    display: grid; 
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%; 
+    grid-gap : 10px;
+    padding: 5px;
+  }
+  .code {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .projectManagement {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .uxDesign {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
   
-
+}
 </style>
