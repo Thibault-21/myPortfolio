@@ -182,15 +182,15 @@ p {
   .brick {
     display: grid; 
     grid-template-columns: 100%;
-    grid-template-rows: 60% 40%;
-    grid-gap: 10px;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2px;
 
     background-color: rgba(211, 211, 211, 0.438); 
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    height: 100%;
+    padding: 5px;
+    margin: 0px;
   }
+ 
   .brick-1 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -216,9 +216,13 @@ p {
     grid-row-end: 6;
   }
   img {
-    height: 100%;
+    height: 80%;
     width: 100%;
     border-radius: 5px;
+  }
+  .image {
+    height: 100%;
+    
   }
 }
 </style>

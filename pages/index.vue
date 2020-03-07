@@ -2,12 +2,12 @@
   <div class="container">
     <!-- <h1>{{ $t('Welcome') }}</h1> -->
     <div class="welcome">
-      <h1>Hi, my name is Thibault. I'm a Front-End Developer. Welcome to my portfolio ! </h1>
+        <p>I'm a <strong>Front-End Developer</strong>.</p>
+        <p>Specialized in <strong>Vue.js</strong>.</p>
+        <p>Welcome to my portfolio ! </p>
     </div>
-    <div class="introduction">
-     
-    
-    <img class="avatar" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Blue03&graphicType=Bat&eyeType=Happy&eyebrowType=UpDown&mouthType=Serious&skinColor=Tanned'
+    <div class="picture">    
+      <img class="avatar" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Blue03&graphicType=Bat&eyeType=Happy&eyebrowType=UpDown&mouthType=Serious&skinColor=Tanned'
 />
     <nuxt />
   </div>
@@ -48,12 +48,32 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  text-align: center;
+.container {
+  display: grid; 
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
 }
-.avatar {
-  height: 10%;
-  width: 10%;
+.picture {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+.welcome {
+  grid-column-start: 2;
+  grid-column-end: 3 ;
 }
 
+p {
+  padding: 15px;
+}
+.avatar {
+  height: 30%;
+  width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 16px;
+  }
+}
 </style>
