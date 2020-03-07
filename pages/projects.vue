@@ -57,7 +57,7 @@
              Coworking space in La Reunion (French Island).</p>
             <!-- implementation -->
             <p>Implementation: 
-            <strong>HTML/CSS</strong></p>     
+            <strong>HTML 5/CSS 3</strong></p>     
           </div>
         </div>
         <!--  -->
@@ -172,6 +172,10 @@ p {
 }
 /* mobile phone */
 @media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
   .gallery {
     display: grid;
     grid-template-columns: 100%;
@@ -222,7 +226,9 @@ p {
   }
   .image {
     height: 100%;
-    
+  }
+  .details {
+    margin-bottom: 5px;
   }
 }
 </style>
