@@ -3,7 +3,7 @@
     <!-- <h1>{{ $t('Welcome') }}</h1> -->
     <div class="welcome">
         <p>Hi, I'm Thibault Decousus !</p> 
-        <p>I'm a <strong>Front-End Developer,</strong>.</p>
+        <p>I'm a <strong>Front-End Developer,</strong></p>
         <p>Specialized in <strong>Vue.js</strong>.</p>
         <p>Welcome to my portfolio ! </p>
     </div>
