@@ -2,7 +2,7 @@
   <div class="main">
       <div class="gallery">
         <div class="title">
-          <h3>My statics projects and vue-projetcs </h3>
+          <h3>My statics and vue-projetcs </h3>
         </div>
         <div class="brick brick-1">
           <div class="image">
