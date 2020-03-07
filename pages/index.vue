@@ -11,20 +11,7 @@
 />
     <nuxt />
   </div>
-<!-- 
-    <nuxt-link
-      v-if="$i18n.locale !== 'en'"
-      :to="switchLocalePath('en')"
-    >
-      English
-    </nuxt-link>
 
-    <nuxt-link
-      v-if="$i18n.locale !== 'fr'"
-      :to="switchLocalePath('fr')"
-    >
-      Español
-    </nuxt-link> -->
     
   </div>
 </template>
@@ -58,18 +45,20 @@ export default {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
+  justify-self: right;
 }
 .welcome {
   grid-column-start: 2;
   grid-column-end: 3 ;
+  justify-self: left;
 }
 
 p {
   padding: 15px;
 }
 .avatar {
-  height: 30%;
-  width: 30%;
+  height: 80%;
+  width: 80%;
 }
 @media only screen and (max-width: 768px) {
   h1 {
