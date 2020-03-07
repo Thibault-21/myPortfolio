@@ -1,8 +1,13 @@
 <template>
   <div class="main">
-    <p>I would like to ask you a question: 
-      - Who has never had a bad user experience on the web? 
-      Hello, my name is Thibault, and I'm a front-end developer. I training on my own and with FreeCodeCamp, to evolve towards better, more challenging work at the heart of technology to design and code better user experiences. </p>
+    <div class="intro">
+    <p>Hello, my name is Thibault, may I ask you a question ? </p>
+      <h3>Who has never had a bad user experience on the web? </h3>
+      <p> A few months ago, I made a professional transition to web development. 
+       I trained on my own and with the FreeCodeCamp platform, 
+       to evolve towards a job that stimulates me more on a daily basis 
+       and allows me to offer a better user experience on the web.</p>
+    </div>
     <div class="education">
       <h1>Education</h1>
       <ul class="coding">
@@ -40,7 +45,16 @@ export default {
   display: grid; 
   grid-template-columns: 100%;
 }
-
+.intro{
+  background-color: rgb(134, 134, 148);
+  border-radius: 5px;
+  color: white;
+}
+p, h3 {
+  text-align: center;
+  margin: 10px 15px;
+  padding: 15px;
+}
 .btn {
   border-radius: 5px;
   border: 1px solid rgb(134, 134, 148);
