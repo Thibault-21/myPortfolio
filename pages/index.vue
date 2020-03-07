@@ -75,5 +75,9 @@ p {
   h1 {
     font-size: 16px;
   }
+  .avatar {
+    height: 80%;
+    width: 80%;
+  }
 }
 </style>
