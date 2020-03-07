@@ -5,7 +5,7 @@
       <nuxt />
     </main>
     <footer>
-      <p>&copy 2019 - Thibault Decousus</p>
+      <p>&copy 2020 - Thibault Decousus</p>
     </footer>
   </div>
 </template>

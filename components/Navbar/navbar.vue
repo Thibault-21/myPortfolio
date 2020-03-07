@@ -1,7 +1,7 @@
 <template>
   <div class=main>
     <nav class="spacing">
-      <nuxt-link class="routes" to="/home">Home</nuxt-link>
+      <nuxt-link class="routes" to="/">Home</nuxt-link>
       <nuxt-link class="routes" to="/projects">Projects</nuxt-link>
       <nuxt-link class="routes" to="/skills">Skills</nuxt-link>
       <nuxt-link class="routes" to="/about">About</nuxt-link>
