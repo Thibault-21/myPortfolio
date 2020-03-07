@@ -139,7 +139,7 @@ input {
   grid-row-end: 2;
   background-color: white;
   color:rgb(27, 27, 50);
-  padding: 15px;
+  padding: 20px;
   border-radius: 5px;
 }
 input::placeholder {
@@ -158,6 +158,11 @@ select {
   padding: 10px;
   margin: 5px;
 }
+textarea {
+  border-radius: 5px;
+  width: 300px;
+  height: 70px;
+}
 .btn-s {
   grid-column-start: 4;
   grid-row-start: 5;
@@ -168,8 +173,7 @@ select {
   background-color: white;
   color: rgb(27, 27, 50);
   border: 1px solid rgb(27, 27, 50);
-  height: 45px;
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
 }
 .next {
@@ -179,7 +183,7 @@ select {
   grid-row-end: 2;
 
   background-color:rgb(27, 27, 50);
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
   border-radius: 5px;
   border: 1px solid white;
@@ -192,10 +196,19 @@ select {
   grid-row-end: 2;
 
   background-color: rgb(162, 171, 221);
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
   border-radius: 5px;
   border: 1px solid rgb(162, 171, 221);
   color: white;
+}
+@media only screen and (max-width: 768px) {
+  textarea {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+
+  }
+
 }
 </style>
