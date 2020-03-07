@@ -8,43 +8,43 @@
        <option value="Mr">Mr</option>
        <option value="Other">Other</option>
       </select>
-      <button @click.prevent.enter="next" class="next">Next</button>
+      <button @click.prevent="next" class="next">Next</button>
      </label>
      <!--  -->
      <label v-else-if="step === 1" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
       <input type="text" v-model="user.firstName" placeholder="Your firstName">
-      <button @click.prevent.enter="next" class="next">Next</button>
+      <button @click.prevent="next" class="next">Next</button>
      </label>
      <!--  -->
      <label v-else-if="step === 2" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
       <input type="text" v-model="user.lastName" placeholder="Your lastName">
-    <button @click.prevent.enter="next" class="next">Next</button>
+    <button @click.prevent="next" class="next">Next</button>
      </label>
      <!--  -->
      <label v-else-if="step === 3" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
       <input type="text" v-model="user.company" placeholder="Your company">
-      <button @click.prevent.enter="next" class="next">Next</button>
+      <button @click.prevent="next" class="next">Next</button>
      </label>
      <!--  -->
      <label v-else-if="step === 4" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
        <input type="text" v-model="user.job" placeholder="Your job">
-      <button @click.prevent.enter="next" class="next">Next</button>
+      <button @click.prevent="next" class="next">Next</button>
      </label>
     <!--  -->
      <label v-else-if="step === 5" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
       <input type="tel" name="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required v-model="user.phone" placeholder="Your phone">
-      <button @click.prevent.enter="next" class="next">Next</button>
+      <button @click.prevent="next" class="next">Next</button>
      </label>
     <!--  -->
      <label v-else-if="step === 6" class="page">
       <button @click.prevent="previous" class="previous">Back</button>
       <input type="text" v-model="user.email" placeholder="Your email">
-     <button @click.prevent.enter="next" class="next">Next</button>
+     <button @click.prevent="next" class="next">Next</button>
      </label>
     <!--  -->
     <label v-else-if="step === 7" class="page">
