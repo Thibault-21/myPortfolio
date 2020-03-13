@@ -1,5 +1,5 @@
 <template>
-  <form action="" method="PUT" class="main">
+  <form action="" method="post" class="main">
    <div class="user">
      <label v-if="step === 0" class="firstPage">
       <select v-model="user.gender">
@@ -52,13 +52,15 @@
       <textarea v-model="user.request" placeholder="Your request here.."></textarea>
       <button class="btn-s" type="submit" @click="submit">Submit</button>
      </label>
-    <p v-else-if="step === 8"> {{thank}} + {{user.gender}} {{user.lastName}}</p>
+    <p class="final" v-else-if="step === 8"> {{thank}} {{user.gender}} {{user.lastName}}</p>
     </div>
   <nuxt />
  </form>
 </template>
 
 <script>
+// import axios from 'axios'
+
 export default {
   name: 'FormContact', 
   data(){
@@ -84,16 +86,24 @@ export default {
     previous(){
       return this.step--;
     }, 
-    submit(){
-      this.$http.post('https://myportfolio-9a37b.firebaseio.com/json', this.user)
+    submit() {
+      return this.$http.post('https://portfolio-b044e.firebaseio.com/json', this.user)
         .then(response => {
           /*eslint-disable */
           console.log(response);
         }, error => {
-          console.log(error);
-        }); 
-        this.step++;
+          console.error(error);
+        })
+        .then(this.step++) 
     }
+    //  async submit( {$axios}){
+       
+    //     const usersInfos = await $axios.$post('https://portfolio-b044e.firebaseio.com/json', this.user)  
+    //     this.usersInfos =  usersInfos 
+    //       /*eslint-disable */
+    //       console.log('success', usersInfos)
+ 
+    
   }
 } 
 </script>
@@ -202,6 +212,9 @@ textarea {
   border: 1px solid rgb(162, 171, 221);
   color: white;
 }
+p {
+  color: white;
+}
 @media only screen and (max-width: 768px) {
   textarea {
     width: 150px;
@@ -209,6 +222,8 @@ textarea {
     border-radius: 5px;
 
   }
-
+p {
+  color: white;
+}
 }
 </style>

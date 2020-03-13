@@ -1,12 +1,14 @@
 <template>
   <div class="main">
     <div class="intro">
-    <p>Hello, my name is Thibault, may I ask you a question ? </p>
-      <h3>Who has never had a bad user experience on the web? </h3>
-      <p> A few months ago, I made a professional transition to web development. 
-       I trained on my own and with the FreeCodeCamp platform, 
-       to evolve towards a job that stimulates me more on a daily basis 
-       and allows me to offer a better user experience on the web.</p>
+      <p> Hello, my name is Thibault, may I ask you a question ? </p>
+        <h3> Who has never had a bad user experience on the web? </h3>
+          <p> 
+            A few months ago, I made a professional transition to web development. 
+            I'm a self-taugh, trained with the FreeCodeCamp platform, 
+            to evolve towards a job that stimulates me more on a daily basis 
+            and allows me to offer a better user experience on the web.
+          </p>
     </div>
     <div class="education">
       <h1>Education</h1>
