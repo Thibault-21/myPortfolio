@@ -2,7 +2,8 @@
   <div class="main">
     <div class="card">
       <h1>Thibault Decousus</h1>
-      <h3> Front-End Developeur, Specialized in <strong>Vue.js</strong> </h3>
+      <h3> Front-End Developeur, </h3> 
+      <p>Specialized in <strong>Vue.js</strong> </p>
       <hr>
       <p><strong>Contacts: </strong>
         <ul>
@@ -37,8 +38,9 @@ export default {
   margin: 10px;
   padding: 10px;
 }
-h1, h3 {
+h1, h3, p {
   color : rgb(27, 27, 50);
+  padding: 5px;
 }
 li {
   list-style-type: none;
@@ -48,5 +50,14 @@ li {
 a {
   color : rgb(27, 27, 50);
   font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    grid-gap: 5px;
+  }
+  .card {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 }
 </style>
