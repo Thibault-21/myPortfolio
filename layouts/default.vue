@@ -24,10 +24,30 @@ export default {
 .main {
   font-family: 'Roboto', sans-serif;
 }
+
 nav {
   background-color: rgb(27, 27, 50);
   padding: 20px;
   color: white;
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    display: grid; 
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: 50% 50%; 
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .spacing {
+    padding: 20px;
+  }
+  a {
+    margin: 10px;
+    padding: 45px;
+  }
+  .routes {
+    margin-right: 35px;
+  }
 }
 main {
   height: 100%;
@@ -43,13 +63,16 @@ input {
   color: white;
   border: 1px solid white;
 }
+
 ::placeholder {
   padding: 10px;
   color: white;
 }
+
  :focus {
   outline:0 !important;
 }
+
  footer {
   background-color: rgb(238, 238, 240);
   color: rgb(59, 59, 79);
@@ -64,6 +87,7 @@ input {
   padding: 35px;
   border-radius: 5px;
 }
+
 .routes, a {
   color: white;
   margin-right: 35px;
