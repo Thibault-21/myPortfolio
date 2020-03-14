@@ -1,18 +1,18 @@
 <template>
   <div class="main">
-      <FormContact></FormContact>
+      <Card></Card>
      <nuxt />
   </div>
 </template>
 
 <script>
 
-import FormContact from '../pages/Contact/FormContact'
+import Card from '../pages/Contact/Card'
 
 export default {
   layout: 'default',
   components: {
-    FormContact
+    Card
   }
 }
 </script>
