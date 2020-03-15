@@ -6,7 +6,7 @@
         </div>
         <div class="brick brick-1">
           <div class="image">
-            <img src="@/static/Images/growthyApp.png">
+            <a href="https://github.com/Thibault-21/Growthy" target="_blank" alt="Github_link"><img src="@/static/Images/growthyApp.png"></a>
           </div>
           <div class="details">
             <h4>Growthy</h4>
@@ -23,7 +23,7 @@
         <!--  -->
         <div class="brick brick-2">
           <div class="image">
-            <img src="@/static/Images/SurveyForm.png">
+            <a href="https://github.com/Thibault-21/DigitalWorkplace_surveyForm" target="_blank" alt="github link"><img src="@/static/Images/SurveyForm.png"></a>
           </div>
           <div class="details">
             <h4>SurveyForm</h4>
@@ -45,7 +45,7 @@
         <!--  -->
         <div class="brick brick-4">
           <div class="image">
-            <a href="../static/Projects/Totem/index.html" class="inner_image"><img class="totem" src="../static/Projects/Totem_img.png"></a>
+           <a href="https://github.com/Thibault-21/Totem" target="_blank" alt="Github_link"><img class="totem" src="../static/Projects/Totem_img.png"></a>
           </div>
           <div class="details">
             <h4>Totem </h4>

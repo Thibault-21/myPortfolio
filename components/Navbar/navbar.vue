@@ -6,8 +6,8 @@
       <nuxt-link class="routes" to="/skills">Skills</nuxt-link>
       <nuxt-link class="routes" to="/about">About</nuxt-link>
       <a href="../CV_Thibault_Decousus_Vuejs.pdf" download="static/CV Thibault Decousus Vue.js.pdf" target="CV" alt="CV">CV</a>
-      <a href="https://github.com/Thibault-21">GitHub</a>
-      <a href="https://www.linkedin.com/in/thibault-decousus/?locale=en_US">LinkedIn</a>
+      <a href="https://github.com/Thibault-21" target="_blank" alt="github link">GitHub</a>
+      <a href="https://www.linkedin.com/in/thibault-decousus/?locale=en_US" target="_blank" alt="linkedIn link">LinkedIn</a>
       <nuxt-link class="routes" to="/contact">Contact</nuxt-link>
       <!-- ajouter les liens vers mon git hub et vers mon linkedIn -->
     </nav>
