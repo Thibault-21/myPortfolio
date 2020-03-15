@@ -95,7 +95,8 @@ p, h1 {
   border: 5px solid rgb(59, 59, 79);
   border-radius: 5px;
   padding: 10px;
-  margin: 60px 50px;
+  margin: 60px 20px;
+  justify-self: center;
 }
 .picture {
   grid-column-start: 1;
