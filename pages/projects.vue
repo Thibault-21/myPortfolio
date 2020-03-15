@@ -173,8 +173,13 @@ p {
 /* mobile phone */
 @media only screen and (max-width: 768px) {
   h3 {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+  }
+  p, strong {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
   }
   .gallery {
     display: grid;
@@ -192,7 +197,7 @@ p {
     background-color: rgba(211, 211, 211, 0.438); 
     border-radius: 5px;
     padding: 5px;
-    margin: 0px;
+    margin: 5px;
   }
  
   .brick-1 {
@@ -218,17 +223,19 @@ p {
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
+    
   }
   img {
-    height: 80%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     border-radius: 5px;
   }
   .image {
     height: 100%;
   }
   .details {
-    margin-bottom: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 10px
   }
 }
 </style>

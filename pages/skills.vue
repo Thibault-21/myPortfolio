@@ -64,9 +64,11 @@ export default {
 .main {
   display: grid; 
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 10% 80% 20%; 
+  grid-template-rows: 100%; 
   grid-gap : 10px;
-  padding: 5px;
+  padding: 10px;
+  margin: 20px;
+  height: 690px;
 }
 .code {
 background-color: rgb(59, 59, 79);
@@ -75,12 +77,11 @@ border-radius: 5px;
 color: white;
 grid-row-start: 1;
 grid-row-end: 3;
-padding: 10px;
+padding: 15px;
+margin: 15px;
+height: 100%;
 }
-li {
-  list-style-type: none;
-  padding: 5px;
-  }
+
 .projectManagement {
   background-color: rgb(134, 134, 148);
   color: rgb(27, 27, 50);
@@ -88,13 +89,11 @@ li {
   color: white;
   grid-row-start: 1;
   grid-row-end: 3;
-  padding: 10px;
+  padding: 15px;
+  margin: 15px;
+height: 100%;
 }
 
-li {
-  list-style-type: none;
-  padding: 5px;
-  }
 .uxDesign {
   background-color: rgb(238, 238, 240);
   color: rgb(27, 27, 50);
@@ -102,36 +101,52 @@ li {
   grid-row-start: 1;
   grid-row-end: 3;
   padding: 10px;
+  margin: 15px;
+height: 100%;
 }
-  li {
+
+li, h2  {
   list-style-type: none;
-  padding: 5px;
-  }
+  padding: 15px;
+}
+p {
+  padding: 20px;
+}
 @media only screen and (max-width: 768px) {
   .main {
+    
     display: grid; 
     grid-template-columns: 100%;
-    grid-template-rows: 33% 33% 33%; 
-    grid-gap : 10px;
+    grid-template-rows: 100%; 
+    grid-gap : 70px;
     padding: 5px;
+    height: 100%;
+    margin-top: 0px;
+   
   }
   .code {
+    font-size: 12px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 110%;
   }
   .projectManagement {
+    font-size: 12px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    height: 110%;
   }
   .uxDesign {
+    font-size: 12px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+    height: 110%;
   }
   
 }

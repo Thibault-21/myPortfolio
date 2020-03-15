@@ -30,31 +30,16 @@ nav {
   padding: 20px;
   color: white;
 }
-@media only screen and (max-width: 768px) {
-  nav {
-    display: grid; 
-    grid-template-columns: 33% 33% 33%; 
-    grid-template-rows: 50% 50%; 
-    grid-gap: 10px;
-    padding: 10px;
-  }
-  .spacing {
-    padding: 20px;
-  }
-  a {
-    margin: 10px;
-    padding: 45px;
-  }
-  .routes {
-    margin-right: 35px;
-  }
-}
+
 main {
-  height: 100%;
+  /* height: 100%; */
   padding: 10px;
   border-radius: 5px;
   margin: 5px;
   border: 1px solid rgb(27, 27, 50);
+
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 input {
   height: 20px;
@@ -94,5 +79,34 @@ input {
   text-decoration: none;
   font-size: 20px;
 }
+@media only screen and (max-width: 768px) {
+ 
+  nav {
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20%; 
+    grid-template-rows: 50% 50%; 
+    grid-gap: 10px;
+    padding: 10px;
 
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .spacing {
+    padding: 20px;
+  }
+  a {
+    margin: 10px;
+    padding: 10px;
+  }
+  .routes {
+    margin-right: 35px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* height: 730px; */
+  }
+}
 </style>

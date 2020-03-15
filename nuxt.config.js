@@ -60,7 +60,8 @@ export default {
  
   modules: [
     'nuxt-i18n', 
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/vuetify'
   ],
 
   i18n: {
