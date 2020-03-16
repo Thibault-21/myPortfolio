@@ -6,7 +6,7 @@
         </div>
         <div class="brick brick-1">
           <div class="image">
-            <a href="https://github.com/Thibault-21/Growthy" target="_blank" alt="Github_link"><img src="@/static/Images/growthyApp.png"></a>
+            <a href="https://github.com/Thibault-21/Growthy" target="_blank" alt="Github_link"><img src="@/static/Images/marketplace.png"></a>
           </div>
           <div class="details">
             <h4>Growthy</h4>
