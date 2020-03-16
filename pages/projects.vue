@@ -127,6 +127,11 @@ export default {
   grid-row-start: 1;
   grid-row-end: 2;
   height: 100%;
+  transition: transform .1s;
+
+}
+.image:hover {
+  transform: scale(1.4);
 
 }
 .details {
