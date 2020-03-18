@@ -5,10 +5,9 @@
         <h1>Hi, I'm Thib!</h1> 
         <p>I'm a <strong>Front-End Developer,</strong></p>
         <p>Specialized in <strong>Vue.js</strong>.</p>
-        
     </div>
     <div class="picture">    
-      <img class="avatar" alt="avatar" src='@/static/Images/avataaars (1).png'
+      <img class="avatar" alt="avatar" src='@/static/Images/avataaars (2).png'
 />
     </div>
     <div class="welcome">
@@ -81,7 +80,7 @@ p, h1 {
   align-self: end;
 }
 .avatar {
-  height: 100%;
+  height: 110%;
   width: 60%;
 }
 
