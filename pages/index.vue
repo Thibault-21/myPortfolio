@@ -8,7 +8,7 @@
         
     </div>
     <div class="picture">    
-      <img class="avatar" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Blue03&graphicType=Bat&eyeType=Happy&eyebrowType=UpDown&mouthType=Serious&skinColor=Tanned'
+      <img class="avatar" alt="avatar" src='@/static/Images/avataaars (1).png'
 />
     </div>
     <div class="welcome">
@@ -71,7 +71,6 @@ export default {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-
   margin: 0px;
   justify-self: center;
   
@@ -83,8 +82,9 @@ p, h1 {
 }
 .avatar {
   height: 100%;
-  width: 100%;
+  width: 60%;
 }
+
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 16px;
@@ -126,7 +126,7 @@ p, h1 {
   
 }
 .avatar {
-  height: 100%;
+  height: 50%;
   width: 100%;
 }
 }
