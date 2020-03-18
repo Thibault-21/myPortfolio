@@ -6,7 +6,14 @@
         </div>
         <div class="brick brick-1">
           <div class="image">
-            <a href="https://github.com/Thibault-21/Growthy" target="_blank" alt="Github_link"><img src="@/static/Images/marketplaceBtoB.png" alt="growthy project"></a>
+            <a rel="noreferrer"
+               href="https://github.com/Thibault-21/Growthy" 
+               target="_blank" 
+               alt="Github_link">
+                <img 
+                  src="@/static/Images/marketplaceBtoB.png" 
+                  alt="growthy project">
+            </a>
           </div>
           <div class="details">
             <h4>Growthy</h4>
@@ -23,7 +30,13 @@
         <!--  -->
         <div class="brick brick-2">
           <div class="image">
-            <a href="https://github.com/Thibault-21/DigitalWorkplace_surveyForm" target="_blank" alt="github link"><img src="@/static/Images/SurveyForm.png" alt="surveyForm project"></a>
+            <a rel="noreferrer" 
+               href="https://github.com/Thibault-21/DigitalWorkplace_surveyForm" 
+               target="_blank" 
+               alt="github link">
+               <img src="@/static/Images/SurveyForm.png" 
+                    alt="surveyForm project">
+            </a>
           </div>
           <div class="details">
             <h4>SurveyForm</h4>
@@ -45,7 +58,14 @@
         <!--  -->
         <div class="brick brick-4">
           <div class="image">
-           <a href="https://github.com/Thibault-21/Totem" target="_blank" alt="Github_link"><img class="totem" src="../static/Projects/Totem_img.png" alt="totem project"></a>
+           <a rel="noreferrer"
+              href="https://github.com/Thibault-21/Totem" 
+              target="_blank" 
+              alt="Github_link">
+                <img class="totem" 
+                     src="../static/Projects/Totem/Totem.png" 
+                     alt="totem project">
+          </a>
           </div>
           <div class="details">
             <h4>Totem </h4>
