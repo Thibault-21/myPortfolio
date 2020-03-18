@@ -16,12 +16,17 @@
         <h2>Coding</h2>
           <li>2020 - <strong>Vue.js</strong> (Vue CLI, vueRouter, NUXT.js, Axios, Vuex) - self-taught</li>
           <li>2019 / 2020 - FreeCodeCamp - Front End Libraries Certification (<strong>Sass</strong>, React)</li>
-          <li>2019 - FreeCodeCamp - <strong>JavaScript</strong> Algorithms and Data Structures  <a href="">Certification</a></li>
-          <li>2019 - FreeCodeCamp - Responsive Web Design <a href="https://www.freecodecamp.org/certification/thib-21/responsive-web-design">Certification</a></li>
+          <li>2019 - FreeCodeCamp - <strong>JavaScript</strong> Algorithms and Data Structures  
+          <!-- <a rel="noreferrer" href="">Certification</a></li> -->
+          <li>2019 - FreeCodeCamp - Responsive Web Design 
+            <a rel="noreferrer" href="https://www.freecodecamp.org/certification/thib-21/responsive-web-design">Certification</a>
+            </li>
        </ul> 
        <ul class="projects">
          <h2>Project Management / Innovation / Entrepreneurship</h2>
-           <li>2015 / 2017 - Centrale Lyon - emlyon business school - Msc Entrepreneurship & Innovation (design Thinking / Ux design) <a href="https://www.linkedin.com/in/thibault-decousus/?locale=en_US">see more</a></li>
+           <li>2015 / 2017 - Centrale Lyon - emlyon business school - Msc Entrepreneurship & Innovation (design Thinking / Ux design) 
+             <a rel="noreferrer" href="https://www.linkedin.com/in/thibault-decousus/?locale=en_US">see more</a>
+             </li>
        </ul>
     </div>
     <div class="hobbies">

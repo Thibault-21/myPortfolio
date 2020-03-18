@@ -7,8 +7,9 @@
         <p>Specialized in <strong>Vue.js</strong>.</p>
     </div>
     <div class="picture">    
-      <img class="avatar" alt="avatar" src='@/static/Images/avataaars (2).png'
-/>
+      <img class="avatar" 
+           alt="avatar" 
+           src='@/static/Images/avatar.png'/>
     </div>
     <div class="welcome">
       <h1>Welcome to my portfolio!</h1>
@@ -86,47 +87,47 @@ p, h1 {
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 16px;
-  } 
+     font-size: 16px;
+   } 
   .container {
-  height: 510px;
-  width: 350px;
-  border: 5px solid rgb(59, 59, 79);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 60px 20px;
-  justify-self: center;
-}
-.picture {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
+    height: 510px;
+    width: 350px;
+    border: 5px solid rgb(59, 59, 79);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 60px 20px;
+    justify-self: center;
+  } 
+  .picture {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-  justify-self: right;
-  height: 100%
-}
-.introduction {
-  grid-column-start: 2;
-  grid-column-end: 3 ;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  justify-self: left;
-  height: 100%;
-}
-.welcome {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+    justify-self: right;
+    height: 100%
+  }
+  .introduction {
+    grid-column-start: 2;
+    grid-column-end: 3 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: left;
+    height: 100%;
+  }
+  .welcome {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
-  margin: 0px;
-  justify-self: center;
-  
-}
-.avatar {
-  height: 50%;
-  width: 100%;
-}
+    margin: 0px;
+    justify-self: center;
+
+  }
+  .avatar {
+    height: 50%;
+    width: 100%;
+  }
 }
 </style>

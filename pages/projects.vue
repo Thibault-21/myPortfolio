@@ -50,7 +50,6 @@
         </div>
         <!--  -->
         <div class="brick brick-3">
-         <div class="image"></div>
           <div class="details">
             <p><strong>Landing Page Projects</strong></p>
           </div>
@@ -65,7 +64,7 @@
                 <img class="totem" 
                      src="../static/Projects/Totem/Totem.png" 
                      alt="totem project">
-          </a>
+           </a>
           </div>
           <div class="details">
             <h4>Totem </h4>
@@ -80,32 +79,12 @@
             <strong>HTML 5/CSS 3</strong></p>     
           </div>
         </div>
-        <!--  -->
-        <!-- <div class="brick brick-5">
-          <div class="image"></div>
-          <div class="details"></div>
-        </div> -->
       </div>
     <nuxt />
   </div>
 
 </template>
 
-<script>
-// import App from '../components/Survey/src/components/pages/FormPage'
-export default {
-  // layout: 'default',
-  components: {
-    // FormPage
-  }, 
-  data(){
-    return {
-      // video: "assets/Projects/SurveyForm.mp4"
-    }
-  }
-
-}
-</script>
 
 <style scoped>
 .main {

@@ -53,12 +53,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: '',
-
-}
-</script>
 
 <style scoped>
 .main {
