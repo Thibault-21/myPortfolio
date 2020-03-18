@@ -12,7 +12,7 @@
       </ul>
       <p><strong>And I use ..</strong></p>
       <ul>
-        <li>VsCode - ES Lint</li>
+        <li>VsCode - ES Lint - LightHouse</li>
         <li>GitHub</li>
         <li>WSL - Ubuntu</li>
       </ul>

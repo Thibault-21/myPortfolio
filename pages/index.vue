@@ -81,8 +81,8 @@ p, h1 {
   align-self: end;
 }
 .avatar {
-  height: 110%;
-  width: 60%;
+  height: 128px;
+  width: 120px;
 }
 
 @media only screen and (max-width: 768px) {
